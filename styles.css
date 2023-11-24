@@ -1,0 +1,137 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    max-width: 1200;
+    margin: 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    margin: 1em;
+    font-size: 3em;
+}nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4.1rem;
+    margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    position: relative;
+}
+nav ul li a.active::before{
+    position:absolute;
+    height: 1px;
+    content:"";
+    width:35%;
+    border-bottom:2px solid black;
+    bottom: -6px;
+}
+/* main section */
+main{
+    display:flex;
+    gap: 8em;
+    margin-top: 4em;
+} 
+.left-col{
+    width: 45%;
+}
+h1{
+    font-size: 5.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+.subhead{
+    font-size:1.8rem;
+
+}
+.cta-btn, .secondary-cta {
+    display: flex;
+    gap: 2em;
+}
+.primary-cta{
+    background-color: #F1E2D1;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius:1em;
+    padding:1em 2em;
+} 
+.secondary-cta{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em 0;
+}
+.secondary-cta svg{
+    width: 20px;
+}
+.news {
+    display: flex;
+    gap: 3em;
+    padding: 5em;
+    border: 2px solid black;
+    border-radius: .8em;
+    position:relative;
+    margin-top: 10px;
+
+}
+.news:before{
+    position: absolute;
+    content: ;
+    background: url('');
+    width:100px;
+    height:100px;
+    top: -20px;
+    left:-20px;
+    Z-index:2;
+}
+p.offers{
+    font-size:2.9rem;
+    margin:0;
+    font-weight:200;
+    line-height: 100%;
+}
+p.details{
+    font-size:1.4rem;
+    margin:0;
+}
+.right-col{
+    display:grid;
+    gap:3em;
+    grid-template-columns: repeat(2,auto);
+    grid-template-areas:
+        "left ."
+        "left .";
+}
+.card{
+    background:rgb(4, 214, 18);
+    padding: 1.1em;
+    display: flex;
+    border-radius: .8em;
+    background-size: 150%;
+}
+.card1{ 
+    grid-area:left;
+    background-image: url();
+}
+card2{
+    background-image: url();
+}
+card3{
+    background-image: url();
+}
