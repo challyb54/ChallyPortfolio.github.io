@@ -440,7 +440,7 @@ span{
         grid-template-columns: 1fr;
     } 
 }
-@media(max-width:555px){
+@media(max-width:455px){
         html{
             font-size: 50%;
         }
@@ -448,7 +448,7 @@ span{
             width: 100%;
         }
  }
- @media(max-width:555px){
+ @media(max-width:455px){
     .home-img img{
         width: 90vw;
     }
