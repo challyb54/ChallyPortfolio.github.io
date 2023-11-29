@@ -381,7 +381,7 @@ span{
         padding: 2rem 3%;
     }
 }
-@media(max-width:768px){
+@media(max-width:468px){
     #menu-icon{
         display:block;
     }
@@ -442,7 +442,7 @@ span{
 }
 @media(max-width:455px){
         html{
-            font-size: 10%;
+            font-size: 50%;
         }
         .contact form .input-box input{
             width: 100%;
