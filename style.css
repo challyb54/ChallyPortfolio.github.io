@@ -442,7 +442,7 @@ span{
 }
 @media(max-width:455px){
         html{
-            font-size: 50%;
+            font-size: 10%;
         }
         .contact form .input-box input{
             width: 100%;
