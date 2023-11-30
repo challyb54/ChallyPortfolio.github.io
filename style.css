@@ -569,6 +569,20 @@ span{
     .about-img img {
         width: 90vw;
     }
+    .social-media{
+        display:grid;
+        float: left;
+        padding: 0rem;
+        position: absolute;
+    }
+    .social-media .icon{
+        margin: 0.5rem;
+    }
+    .social-media .icon:hover .tooltip {
+        right: -40px;
+        
+        
+    }
 }
 @media(max-width:455px){
         html{
