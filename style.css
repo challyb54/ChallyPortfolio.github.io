@@ -565,9 +565,11 @@ span{
     } 
     .home-img img{
         width: 50vw;
+        margin-top: 0rem;
     }
     .about-img img {
         width: 90vw;
+        
     }
     .social-media{
         display:grid;
