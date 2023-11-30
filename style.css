@@ -114,6 +114,10 @@ span{
 }
 .home-content p{
     font-size: 1.6rem;
+    justify-content:space-around;
+    justify-content: space-between;
+    text-justify: auto;
+    justify-content: center;
 }
 .social-media{
     display: inline-flex;
@@ -564,9 +568,8 @@ span{
         grid-template-columns: 1fr;
     } 
     .home-img img{
-        width: 25vw;
+        width: 50vw;
         margin-top: 0rem;
-
     }
     .about-img img {
         width: 90vw;
