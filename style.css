@@ -97,7 +97,7 @@ section{
 }
 .home-content h3{
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 1.3;
 }
 .home-content h3:nth-of-type(2){
@@ -114,10 +114,8 @@ span{
 }
 .home-content p{
     font-size: 1.6rem;
-    justify-content:space-around;
-    justify-content: space-between;
     text-justify: auto;
-    justify-content: center;
+    
 }
 .social-media{
     display: inline-flex;
@@ -534,6 +532,7 @@ span{
       }
       .home{
         flex-direction:column;
+        text-justify: auto;
       }
       .home-content h3{
         font-size:  2.6rem;
