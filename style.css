@@ -575,18 +575,122 @@ span{
         
     }
     .social-media{
-        display:grid;
-        float: left;
-        padding: 0rem;
+        display: flex;
+        flex-direction: column;
         position: absolute;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+
+      
     }
     .social-media .icon{
-        margin: 0.5rem;
+        display: flex;
+        align-items:flex-start;
+        justify-content:flex-start;
+        flex-direction: column;
+        position: relative; 
+        z-index: 2;
+        cursor: pointer;
+        margin: 0%;
+        padding: -5px;
+      
+
     }
-    .social-media .icon:hover .tooltip {
-        right: -40px;  
+    .social-media .icon a{
+        position: relative;
+        height: 40px;
+        width: 40px;
+        margin: -10px;
+        display: block;
+        background-color: #0ef;
+        text-align: center;
+        border-radius: 50%;
+        z-index:2;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    }
+    .social-media .icon a i{
+        color: #fff;
+    }
+    .social-media .icon a i{
+        font-size: 25px;
+        line-height: 40px;
+    
+        }
+    .social-media .icon .tooltip{
+        position: relative;
+        left: 0px;
+      
+        background-color: #0ef;
+        font-size: 12px;
+        padding: 6px 8px;
+        border-radius:25px;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        opacity: 0;
+        pointer-events: none;
+        /* transition: all 0.5s cubic-bezier(0.68,-0.55,0.265,1.55); */
+    
+        }
+        .social-media .icon:hover .tooltip {
+            right: 10px;
+            opacity: 1;
+            pointer-events: auto;
+            font-style:italic;
+            font-size: 15px;
+            margin-left: 30px;
+              /* margin: -10px; */
+            
+        }
+        .social-media .icon .tooltip:before{
+            position: relative;
+            content: "";
+            height: 15px;
+            width: 15px;
+            left: 3;
+            left: 20%;
+            transform: translateX(-5%) rotate(45deg);
+        }
+        .social-media .icon:hover a i{
+            /* transform: translate(0,10%);  */
+            transition: all 0.5s cubic-bezier(0.68,-0.55,0.265,1.55);
+    
+        }
+        .social-media .icon:hover i,
+        .social-media .icon .tooltip{
+            text-shadow: 0px -1px 0px rgba(0,0,0,0.4); 
+        }
+        .social-media .whatsapp:hover a,
+        .social-media .whatsapp:hover .tooltip,
+        .social-media .whatsapp:hover .tooltip:before{
+            background: #075E54;
+            
+        }
+        .social-media .facebook:hover a,
+        .social-media .facebook:hover .tooltip,
+        .social-media .facebook:hover .tooltip:before{
+            background: #3B5999;
+        }
+        .social-media .instagram:hover a,
+        .social-media .instagram:hover .tooltip,
+        .social-media .instagram:hover .tooltip:before{
+            background: #e1306c;
+        }
+        .social-media .youtube:hover a,
+        .social-media .youtube:hover .tooltip,
+        .social-media .youtube:hover .tooltip:before{
+            background: #DE463B;
+        }
+        .social-media .linkedin:hover a,
+        .social-media .linkedin:hover .tooltip,
+        .social-media .linkedin:hover .tooltip:before{
+            background: #0A66C2;
+        }
+        .social-media .Github:hover a,
+        .social-media .Github:hover .tooltip,
+        .social-media .Github:hover .tooltip:before{
+            background: #333;
+        }
         
-    }
 }
 @media(max-width:455px){
         html{
