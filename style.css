@@ -567,7 +567,7 @@ span{
         grid-template-columns: 1fr;
     } 
     .home-img img{
-        width: 50vw;
+        width: 10vw;
         margin-top: 0rem;
     }
     .about-img img {
@@ -581,6 +581,7 @@ span{
         float: left;
         margin: 0px;
         padding: 0px;
+        
 
       
     }
