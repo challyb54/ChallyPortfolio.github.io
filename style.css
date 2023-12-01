@@ -122,7 +122,7 @@ span{
     padding-top: 1rem;
 }
 .social-media .icon{
-    margin: 0 20px;
+    margin: 0 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -289,7 +289,7 @@ span{
     font-size:1.6rem ;
     margin:1rem 0 -3rem;
 }
-#btn1 {
+.btn1 {
     position: absolute;
     display: flex;
     bottom: 15;
@@ -304,7 +304,7 @@ span{
     font-weight: 600;
     transition: .5s ease;
 }
-#btn1:hover{
+.btn1:hover{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
@@ -569,12 +569,12 @@ span{
         grid-template-columns: repeat(2, 1fr);
       }
 }
-@media(max-width:617px){
+@media(max-width:600px){
     .portfolio-container{
         grid-template-columns: 1fr;
     } 
     .home-img img{
-        width: 63vw;
+        width: 60vw;
         margin-top: 0rem;
         position:relative;
         margin-left: 15%;
@@ -588,11 +588,8 @@ span{
         flex-direction: column;
         position: absolute;
         float: left;
-        margin-left: 15px;
+        margin-left: 1%;
         padding: 0px;
-        
-
-      
     }
     .social-media .icon{
         display: flex;
@@ -611,7 +608,7 @@ span{
         position: relative;
         height: 40px;
         width: 40px;
-        margin: -10px;
+        margin: 2px;
         display: block;
         background-color: #0ef;
         text-align: center;
@@ -642,12 +639,12 @@ span{
     
         }
         .social-media .icon:hover .tooltip {
-            right: 10px;
+            right: 0px;
             opacity: 1;
             pointer-events: auto;
             font-style:italic;
             font-size: 15px;
-            margin-left: 30px;
+            margin-left: 45px;
             
 
               /* margin: -10px; */
