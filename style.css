@@ -574,11 +574,11 @@ span{
         grid-template-columns: 1fr;
     } 
     .home-img img{
-        width: 50vw;
+        width: 5ovw;
         margin-top: 0rem;
         position:relative;
-        /* margin-left: 15%; */
-    }
+        animation:none;
+        }
     .about-img img {
         width: 90vw;
         
@@ -608,7 +608,7 @@ span{
         position: relative;
         height: 40px;
         width: 40px;
-        margin: 2px;
+        margin: 4px;
         display: block;
         background-color: #0ef;
         text-align: center;
@@ -627,8 +627,9 @@ span{
     .social-media .icon .tooltip{
         position: relative;
         left: 0px;
+        margin: ;
       
-        background-color: #0ef;
+        background-color: rgb(255, 0, 106);
         font-size: 12px;
         padding: 6px 8px;
         border-radius:25px;
@@ -639,12 +640,13 @@ span{
     
         }
         .social-media .icon:hover .tooltip {
-            right: 0px;
+            right: 20px;
             opacity: 1;
             pointer-events: auto;
             font-style:italic;
             font-size: 15px;
-            margin-left: 45px;
+            margin-left: 48px;
+            
             
 
               /* margin: -10px; */
