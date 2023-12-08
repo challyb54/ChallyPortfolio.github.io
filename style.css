@@ -574,7 +574,7 @@ span{
         grid-template-columns: 1fr;
     } 
     .home-img img{
-        width: 35vw;
+        width: 30vw;
         margin-top: 0rem;
         position:relative;
         animation:none;
