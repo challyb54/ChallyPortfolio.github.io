@@ -577,7 +577,7 @@ span{
         width: 30vw;
         margin-top: 0rem;
         position:relative;
-        animation:none;
+    
         }
     .about-img img {
         width: 90vw;
@@ -627,8 +627,6 @@ span{
     .social-media .icon .tooltip{
         position: relative;
         left: 0px;
-        
-      
         background-color: rgb(255, 0, 106);
         font-size: 12px;
         padding: 6px 8px;
