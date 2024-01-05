@@ -657,7 +657,7 @@ blockquote {
         
     }
     h2{
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
     .home-content h1{
         font-size: 2.8rem;
@@ -676,6 +676,7 @@ blockquote {
         line-height: 1.5;
         padding-left: 0rem;
         padding-top: 0.2rem;
+        margin-bottom: -1rem;
         
     }
     .home-content p{
