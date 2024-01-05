@@ -640,22 +640,34 @@ blockquote {
         grid-template-columns: 1fr;
     } 
     .home-img img{
-        width: 30vw;
+        width: 70vw;
         margin-top: 0rem;
         position:relative;
     
         }
     .about-img img {
-        width: 20vw;
+        width: 90vw;
         
     }
+    .home-content h1{
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.5;
+        padding-left: 0rem;}
     .home-content h3{
         font-size: 3rem;
         font-weight: 500;
         line-height: 1.5;
         padding-left: 0rem;
+        padding-top: 1rem;
         
     }
+    .home-content p{
+        font-size: 2rem;
+        text-justify: auto;
+        line-height: 1.5;
+        text-indent: 20px;
+        padding: 10PX;
 
     
 .social-media{
