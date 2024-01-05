@@ -183,11 +183,11 @@ span{
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.5s cubic-bezier(0.68,-0.55,0.265,1.55);
+    transition: all 0.5s cubic-bezier(0.68,-0.5,0.265,1.55);
 
     }
     .social-media .icon:hover .tooltip {
-        bottom: -40px;
+        bottom: -5px;
         opacity: 1;
         pointer-events: auto;
         font-style:italic;
@@ -364,8 +364,7 @@ blockquote {
 .services h2{
     margin-bottom: 2rem;
     background-color:var(--hd-bg-color2);
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 5px;
 
 
 }
@@ -393,10 +392,13 @@ blockquote {
 }
 .services-box i{
     font-size:3rem;
-    color:var(--main-color);
+    color: rgb(255, 208, 0);;
 }
 .services-box h3{
     font-size: 2.6rem;
+    background-color:var(--hd-bg-color);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .services-box p{
     font-size: 1.6rem;
@@ -653,6 +655,9 @@ blockquote {
     .about-img img {
         width: 90vw;
         
+    }
+    .about h2{
+        margin-top: 2rem;
     }
     .home-content h1{
         font-size: 2.8rem;
