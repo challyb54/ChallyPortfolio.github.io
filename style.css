@@ -524,10 +524,12 @@ blockquote {
     flex-direction: wrap;
     padding:2rem 9%;
     background: var(--hd-bg-color);
+    
 }
 .footer-text p{
     font-size:1.6rem;
     text-align: center;
+    align-items: center;
 }
 .footer-iconTop a{
     display: inline-flex;
