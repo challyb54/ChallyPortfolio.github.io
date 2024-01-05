@@ -12,10 +12,12 @@
 }
 :root{
     --hd-bg-color:#161a20;
+    --hd-bg-color2:#161a20d0;
     --bg-color:#1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
-    --main-color:#0ef;
+    --main-color:#0ef;                    
+    --brighter-color:#d3eff7;
 
 }
 html{
@@ -28,7 +30,7 @@ body{
 }
 section{
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 10rem 7% 2rem;
 }
 .header{
     position: fixed;
@@ -77,7 +79,7 @@ section{
     display:flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: -10;
     
 }
 .home-img img{
@@ -98,23 +100,38 @@ section{
 .home-content h3{
     font-size: 3rem;
     font-weight: 100;
-    line-height: 1.3;
+    line-height: 2;
+    padding-left: 0rem;
+}
+.home-content h4{
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-left: 7rem;
 }
 .home-content h3:nth-of-type(2){
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 span{
     color:var(--main-color);
 }
 
 .home-content h1{
-    font-size: 4.6rem;
+    font-size: 5rem;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.5;
+    padding-left: 5rem;
+}
+.home-content h2{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-left: 0rem;
 }
 .home-content p{
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-justify: auto;
+    line-height: 1.4;
     
 }
 .social-media{
@@ -200,7 +217,7 @@ span{
     .social-media .facebook:hover .tooltip:before{
         background: #3B5999;
     }
-    .social-media .instagram:hover a,
+    /* .social-media .instagram:hover a,
     .social-media .instagram:hover .tooltip,
     .social-media .instagram:hover .tooltip:before{
         background: #e1306c;
@@ -209,7 +226,7 @@ span{
     .social-media .youtube:hover .tooltip,
     .social-media .youtube:hover .tooltip:before{
         background: #DE463B;
-    }
+    } */
     .social-media .linkedin:hover a,
     .social-media .linkedin:hover .tooltip,
     .social-media .linkedin:hover .tooltip:before{
@@ -276,18 +293,45 @@ span{
     text-align: center;
     font-size: 4.5rem;
 }
+.about-content-right-container {
+    background-color:var(--hd-bg-color2);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 .about-content h2{
     text-align:center;
     line-height:1.2;
-    margin-top: 0rem;
+    margin-top: rem;
     margin-bottom: 2rem;
+    background-color:var(--hd-bg-color);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .about-content h3{
     font-size:2.5rem;
+    padding: 2rem 0 0 1rem;
+    margin-top: -1rem;
 }
 .about-content p{
-    font-size:1.6rem ;
-    margin:1rem 0 -3rem;
+    font-size:1.8rem ;
+    margin:2rem 20 1rem;
+    line-height: 2;
+    font-weight: 300;
+    
+   
+   
+    
+}
+blockquote {
+    margin: 0 30 6 80;
+    padding:1rem;
+    padding-bottom: 0rem;
+    background-color: #075E54;
+    text-align: justify;
+    line-height:1.8;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
 }
 .btn1 {
     position: absolute;
@@ -311,6 +355,10 @@ span{
 /*services section*/
 .services h2{
     margin-bottom: 2rem;
+    background-color:var(--hd-bg-color2);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
 
 }
 .services-container{
@@ -345,6 +393,9 @@ span{
 .services-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    line-height: 2;
+    
 }
 
 /*portfolio section*/
@@ -356,6 +407,9 @@ span{
 }
 .portfolio h2{
     margin-bottom: 4rem;
+    background-color:var(--hd-bg-color2);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }  
 .portfolio-container {
     display: grid;
@@ -423,6 +477,9 @@ span{
 .contact h2{
     margin-bottom: 0rem;
     margin-top: 0rem;
+    background-color:var(--hd-bg-color2);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 
 }
 .contact form{
@@ -470,6 +527,7 @@ span{
 }
 .footer-text p{
     font-size:1.6rem;
+    text-align: center;
 }
 .footer-iconTop a{
     display: inline-flex;
@@ -583,7 +641,7 @@ span{
         width: 20vw;
         
     }
-    .social-media{
+    /* .social-media{
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -649,7 +707,7 @@ span{
 
               /* margin: -10px; */
             
-        }
+        /* }
         .social-media .icon .tooltip:before{
             position: relative;
             content: "";
@@ -660,7 +718,7 @@ span{
             transform: translateX(-5%) rotate(45deg);
         }
         .social-media .icon:hover a i{
-            /* transform: translate(0,10%);  */
+            /* transform: translate(0,10%);  
             transition: all 0.5s cubic-bezier(0.68,-0.55,0.265,1.55);
     
         }
@@ -698,7 +756,7 @@ span{
         .social-media .Github:hover .tooltip,
         .social-media .Github:hover .tooltip:before{
             background: #333;
-        }
+        } */ */
         
 }
 @media(max-width:455px){
