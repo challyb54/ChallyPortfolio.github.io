@@ -123,6 +123,7 @@ span{
     font-weight: 700;
     line-height: 1.5;
     padding-left: 6rem;
+    color: rgb(255, 208, 0);
 }
 .home-content h3{
     font-size: 5rem;
@@ -135,6 +136,8 @@ span{
     font-size: 2.3rem;
     text-justify: auto;
     line-height: 2;
+    text-indent: 60px;
+    text-align: justify;
     
 }
 .social-media{
@@ -320,6 +323,8 @@ span{
     margin:2rem 20 1rem;
     line-height: 2;
     font-weight: 300;
+    align-items: center;
+    text-align: justify;
     
    
    
