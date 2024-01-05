@@ -650,17 +650,17 @@ blockquote {
         
     }
     .home-content h1{
-        font-size: 3rem;
-        font-weight: 700;
+        font-size: 2.8rem;
+        font-weight: 600;
         line-height: 1.5;
         padding-left: 0rem;}
-        .home-content h2{
-            font-size: 3.2rem;
+     .home-content h2{
+            font-size: 3rem;
             font-weight: 100;
             line-height: 1.5;
-            padding-left: 0rem;}
+            padding-left: 1rem;}
     .home-content h3{
-        font-size: 3rem;
+        font-size: 2.8rem;
         font-weight: 500;
         line-height: 1.5;
         padding-left: 0rem;
